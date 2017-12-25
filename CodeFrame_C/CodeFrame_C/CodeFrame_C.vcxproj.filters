@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FrameCommon">
+      <UniqueIdentifier>{dd9cfc32-5482-435a-944a-dcbb82813c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{bfa769fb-bd0e-4533-b9ab-1062ebd07b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\NPC">
+      <UniqueIdentifier>{7126f483-630c-4de5-b04e-27ea786b6892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\UI">
+      <UniqueIdentifier>{d8a88876-f8b2-4f1e-b138-53cef340bd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Base">
+      <UniqueIdentifier>{7cbd4965-27c8-4c61-b77a-73f41d6a0dfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Common">
+      <UniqueIdentifier>{76f77fbc-4c6a-4053-a324-9d01a01a4e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\NPC">
+      <UniqueIdentifier>{7cce86f0-9e43-4365-9c41-efdc3e5236c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UI">
+      <UniqueIdentifier>{588275bd-2782-4ea6-a7d3-9ec6b5d3e761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Net">
+      <UniqueIdentifier>{52ae87f9-97f7-4516-9703-dd299813e571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Net">
+      <UniqueIdentifier>{68e1489f-4f6b-4308-83de-e85fd775164a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerBase.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptBase.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgCenter.cpp">
+      <Filter>源文件\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCEventCtrl.cpp">
+      <Filter>源文件\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="NPCManager.cpp">
+      <Filter>源文件\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEventCtrl.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>源文件\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NetManager.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEventCtrl.cpp">
+      <Filter>源文件\Net</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_msg_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTools.h">
+      <Filter>头文件\FrameCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerBase.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBase.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptBase.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgCenter.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCBase.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCEventCtrl.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="NPCManager.h">
+      <Filter>头文件\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBase.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEventCtrl.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>头文件\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NetBase.h">
+      <Filter>头文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="NetManager.h">
+      <Filter>头文件\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEventCtrl.h">
+      <Filter>头文件\Net</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
